@@ -6,4 +6,7 @@ Tracking File
 - updated title/meta tags
 - updated header text
 - added headshot
+- update contact information at bottom
+- added sidebar image
+- changed icons and links at bottom of sidebar
 
