@@ -9,4 +9,5 @@ Tracking File
 - update contact information at bottom
 - added sidebar image
 - changed icons and links at bottom of sidebar
+- change background image color to match background image
 
