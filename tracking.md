@@ -4,6 +4,11 @@ Tracking File
 - added photo credit to bottom
 - added initial blurb at top of website
 - add resume and resume link
+- start to add project names, descriptions, and images
+
+To-do:
+- link projects to live sites
+- complete form section at bottom - get form to work?
 
 02/01/2023:
 - Created repo
