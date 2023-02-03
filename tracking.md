@@ -1,8 +1,13 @@
 Tracking File
 
+To-do:
+- complete form section at bottom - get form to work?
+- redo modals to have links - current MVP just has direct links
+
 02/03/23:
 - make links all to new tab (not same page)
 - resume PDF had bad title - change to generic title
+- link projects to live sites
 
 02/02/23:
 - added photo credit to bottom
@@ -10,9 +15,6 @@ Tracking File
 - add resume and resume link
 - start to add project names, descriptions, and images
 
-To-do:
-- link projects to live sites
-- complete form section at bottom - get form to work?
 
 02/01/2023:
 - Created repo
