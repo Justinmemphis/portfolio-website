@@ -3,6 +3,7 @@ Tracking File
 To-do:
 - complete form section at bottom - get form to work?
 - redo modals to have links - current MVP just has direct links
+	(note that this involves editing the jquery.poptrox functions, etc.)
 
 02/03/23:
 - make links all to new tab (not same page)
