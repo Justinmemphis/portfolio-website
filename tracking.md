@@ -9,6 +9,7 @@ To-do:
 - make links all to new tab (not same page)
 - resume PDF had bad title - change to generic title
 - link projects to live sites
+- add form section at bottom using formspree - really cool API for using forms
 
 02/02/23:
 - added photo credit to bottom
