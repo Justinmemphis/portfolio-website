@@ -1,5 +1,8 @@
 Tracking File
 
+02/03/23:
+- make links all to new tab (not same page)
+
 02/02/23:
 - added photo credit to bottom
 - added initial blurb at top of website
