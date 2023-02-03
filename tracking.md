@@ -2,6 +2,7 @@ Tracking File
 
 02/03/23:
 - make links all to new tab (not same page)
+- resume PDF had bad title - change to generic title
 
 02/02/23:
 - added photo credit to bottom
