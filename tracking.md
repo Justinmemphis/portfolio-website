@@ -11,6 +11,7 @@ To-do:
 - update meta tags for link preview on social websites
 - optimize website preview link image
 - redo meta tag for Twitter image preview
+- add more twitter meta tags
 
 02/04/23:
 - go live with new website
