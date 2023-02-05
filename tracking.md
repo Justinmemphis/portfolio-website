@@ -9,6 +9,7 @@ To-do:
 - correct mailto link not implemented correctly
 - create website preview link image
 - update meta tags for link preview on social websites
+- optimize website preview link image
 
 02/04/23:
 - go live with new website
