@@ -1,9 +1,17 @@
 Tracking File
 
 To-do:
-- complete form section at bottom - get form to work?
 - redo modals to have links - current MVP just has direct links
 	(note that this involves editing the jquery.poptrox functions, etc.)
+- implement continuous integration using github actions between changing github and update AWS S3 bucket and cloudfront distribution
+
+02/05/23:
+- correct mailto link not implemented correctly
+- create website preview link image
+- update meta tags for link preview on social websites
+
+02/04/23:
+- go live with new website
 
 02/03/23:
 - make links all to new tab (not same page)
