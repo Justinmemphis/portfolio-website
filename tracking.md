@@ -10,6 +10,7 @@ To-do:
 - create website preview link image
 - update meta tags for link preview on social websites
 - optimize website preview link image
+- redo meta tag for Twitter image preview
 
 02/04/23:
 - go live with new website
