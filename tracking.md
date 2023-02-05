@@ -1,5 +1,23 @@
 Tracking File
 
+To-do:
+- complete form section at bottom - get form to work?
+- redo modals to have links - current MVP just has direct links
+	(note that this involves editing the jquery.poptrox functions, etc.)
+
+02/03/23:
+- make links all to new tab (not same page)
+- resume PDF had bad title - change to generic title
+- link projects to live sites
+- add form section at bottom using formspree - really cool API for using forms
+
+02/02/23:
+- added photo credit to bottom
+- added initial blurb at top of website
+- add resume and resume link
+- start to add project names, descriptions, and images
+
+
 02/01/2023:
 - Created repo
 - downloaded Strata template from html5up
