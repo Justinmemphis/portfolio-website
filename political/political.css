@@ -2,7 +2,11 @@ body {
   text-align: center;
   padding: 0px;
   margin: 0px;
-  background: #666666;
+  background: white;
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-weight: 400;
+  color: #1a1a1a;
+  font-size: 0.75em;
 }
 
 img {
@@ -15,23 +19,15 @@ img {
   display: flex;
   flex-wrap: wrap;
   flex-flow: center;
-  background: #cccccc;
-  color: #000000;
   margin: auto;
   padding: 10px;
   justify-content: space-around;
 }
 
-#navbar {
-  width: 100%;
-  text-align: center;
-  color: black;
-}
 
 #welcome-section {
   width: 100%;
   text-align: center;
-  color: black;
 }
 
 .projects {
@@ -39,15 +35,10 @@ img {
   flex-wrap: wrap;
   width: 100%;
   text-align: center;
-  color: black;
 }
 
 .project-tile {
-   background-color: #999999;
    padding: 10px;
-   border-width: 5px;
-   border-color: black;
-   border-style: solid;
    width: 800px;
    margin: auto;
 }
@@ -72,9 +63,13 @@ img {
 }
 
 table, th, td {
-  border: 1px solid black;
+  border: 0em solid gray;
   padding: 10px;
   margin: auto;
+}
+
+td {
+	border: 0.1em solid gray;
 }
 
 .disabled {
@@ -82,8 +77,8 @@ table, th, td {
 }
 
 .spacer {
-  height:3cm;
-  background: #999999;
+  height:3em;
+  background: gray;
 }
 
 @media only screen and (max-width: 900px) {
