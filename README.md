@@ -12,4 +12,4 @@ Using a template definitely improved the time to go live.  Using AWS was much ha
 I learned a lot about DNS, CDNs, and other networking, routing, and deployment things from putting this on AWS.
 
 ## Future Changes:
-Nothing at the moment.  I continue to rotate my projects as I do more of them.
+- Add licenses and certifications passed section
