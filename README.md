@@ -12,4 +12,4 @@ Using a template definitely improved the time to go live.  Using AWS was much ha
 I learned a lot about DNS, CDNs, and other networking, routing, and deployment things from putting this on AWS.
 
 ## Future Changes:
-- Add licenses and certifications passed section
+- Add licenses and certifications passed section - this is so I can keep track of things I take off LinkedIn
