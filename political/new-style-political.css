@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 10px;
+    background-color: #f4f4f4;
+}
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+h1 {
+    color: #333;
+    text-align: center;
+		font-size: 24px;
+}
+h2 {
+    color: #444;
+    border-bottom: 2px solid #444;
+    padding-bottom: 5px;
+		font-size: 20px;
+}
+h3 {
+		font-size: 18px;
+}
+h4 {
+		font-size: 16px;
+}
+.office {
+    margin-bottom: 20px;
+		border: 1px solid #ddd;
+		border-radius: 5px;
+		padding: 10px;
+}
+.party {
+    font-weight: bold;
+    margin-top: 10px;
+		background-color: #f0f0f0;
+		padding: 5px;
+		border-radius: 3px;
+}
+ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
+li {
+		margin-bottom: 5px;
+		padding: 5px;
+		background-color: #f9f9f9;
+		border-radius: 3px;
+}
+.write-in {
+    font-style: italic;
+    color: #666;
+}
+
+.highlight {
+    background-color: #ffffd0;
+    border-left: 3px solid #ffcc00;
+    padding-left: 10px;
+    margin-left: -13px;
+    transition: background-color 0.3s ease;
+}
+
+.highlight:hover {
+    background-color: #fff5b1;
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 750px;
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    h4 {
+        font-size: 18px;
+    }
+
+    ul {
+        padding-left: 20px;
+    }
+}
