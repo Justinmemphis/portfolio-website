@@ -12,4 +12,4 @@ Using a template definitely improved the time to go live.  Using AWS was much ha
 I learned a lot about DNS, CDNs, and other networking, routing, and deployment things from putting this on AWS.
 
 ## Future Changes:
-- Add CD implementation via GitHub Actions to AWS S3 bucket (in progress).
+- Add CD implementation via GitHub Actions to AWS S3 bucket (in progress). 
