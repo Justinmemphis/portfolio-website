@@ -1,6 +1,8 @@
 # portfolio website
 
-This is my personal website [live site here](justinmemphis.com).  
+This is my personal website [live site here](justinmemphis.com).
+
+[![Sync to AWS](https://github.com/Justinmemphis/portfolio-website/actions/workflows/s3sync.yml/badge.svg)](https://github.com/Justinmemphis/portfolio-website/actions/workflows/s3sync.yml)
 
 ## How It's Made:
 I used a template from [HTML5UP](html5up.net).  The actual live website is hosted on an AWS Cloudfront Distribution serving content from a S3 bucket.
