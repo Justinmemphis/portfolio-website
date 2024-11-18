@@ -3,7 +3,8 @@ Tracking File
 To-do:
 - redo modals to have links - current MVP just has direct links
 	(note that this involves editing the jquery.poptrox functions, etc.)
-- implement continuous integration using github actions between changing github and update AWS S3 bucket and cloudfront distribution
+- DONE November 2024 - implement continuous integration using github actions between changing github and update AWS S3 bucket and cloudfront distribution
+- Also - add blog section
 
 02/05/23:
 - correct mailto link not implemented correctly
