@@ -1,11 +1,11 @@
 # portfolio website
 
-This is my personal website [live site here](justinmemphis.com).
+This is my personal website [live site here](https://www.justinmemphis.com).
 
 [![Sync to AWS](https://github.com/Justinmemphis/portfolio-website/actions/workflows/s3sync.yml/badge.svg)](https://github.com/Justinmemphis/portfolio-website/actions/workflows/s3sync.yml)
 
 ## How It's Made:
-I used a template from [HTML5UP](html5up.net).  The actual live website is hosted on an AWS Cloudfront Distribution serving content from a S3 bucket.
+I used a template from [HTML5UP](https://www.html5up.net).  The actual live website is hosted on an AWS Cloudfront Distribution serving content from a S3 bucket.
 
 ## Optimizations:
 Using a template definitely improved the time to go live.  Using AWS was much harder than using Netlify (what I used before), but ultimately it was worth it for what I learned.
