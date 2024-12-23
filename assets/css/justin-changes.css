@@ -1,0 +1,13 @@
+/* Justin Changes to CSS */
+
+@supports (background-image: image-set(url("") type("image/avif"))) {
+	#header {
+		background-image:
+			url("images/overlay.png"),
+			image-set(
+				url("../../images/bg.avif") type("image/avif"),
+				url("../../images/bg.webp") type("image/webp"),
+				url("../../images/bg.jpg") type("image/jpeg")
+			);
+	}
+}
