@@ -1,6 +1,10 @@
 Tracking File
 
-To-do:
+To-do (December 26 2024):
+- add blog section
+
+
+
 - redo modals to have links - current MVP just has direct links
 	(note that this involves editing the jquery.poptrox functions, etc.)
 - DONE November 2024 - implement continuous integration using github actions between changing github and update AWS S3 bucket and cloudfront distribution
