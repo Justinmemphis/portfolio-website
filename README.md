@@ -13,6 +13,5 @@ Using a template definitely improved the time to go live.  Using AWS was much ha
 ## Lessons Learned:
 I learned a lot about DNS, CDNs, and other networking, routing, and deployment things from putting this on AWS.
 
-## Future Changes:
-- Add CD implementation via GitHub Actions to AWS S3 bucket (in progress).
-  - Current status - connection live - troubleshooting why some pages are not updating correctly on change  
+## Future Changes
+12/27/24 - added AWS Cloudfront invalidation (with S3 sync) - appears to be working
