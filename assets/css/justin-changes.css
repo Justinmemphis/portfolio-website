@@ -11,3 +11,15 @@
 			);
 	}
 }
+
+@media screen and (max-width: 980px) {
+	#footer {
+		background-image:
+			url("images/overlay.png"),
+			image-set(
+				url("../../images/bg.avif") type("image/avif"),
+				url("../../images/bg.webp") type("image/webp"),
+				url("../../images/bg.jpg") type("image/jpeg")
+			);
+	}
+}
