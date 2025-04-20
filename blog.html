@@ -1,9 +1,97 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-	<title>Justin Carter Blog Posts</title>
+  <title>Justin Carter Blog</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <link rel="stylesheet" href="assets/css/justin-changes.css" />
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <style>
+    body {
+      padding: 2em;
+    }
+    .post {
+      border-bottom: 1px solid #ccc;
+      margin-bottom: 2em;
+      padding-bottom: 2em;
+    }
+  </style>
 </head>
 <body>
-	<h1>Page is live</h1>
+  <header id="header">
+    <div class="inner">
+      <h1>📝 Justin Carter's Blog</h1>
+      <p><a href="index.html">&larr; Back to Portfolio</a></p>
+    </div>
+  </header>
+  <div id="blog-posts" class="container"></div>
+
+<script>
+  const container = document.getElementById("blog-posts");
+  const params = new URLSearchParams(window.location.search);
+  const requestedSlug = params.get("slug");
+
+  // Turn filename into slug, date, and title
+  function parseFilename(file) {
+    const parts = file.replace(".md", "").split("-");
+    const date = parts.slice(0, 3).join("-");
+    const slug = parts.slice(3).join("-");
+    const title = parts.slice(3).map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(" ");
+    return { file, date, slug, title };
+  }
+
+  function renderPost(post) {
+    fetch(`posts/${post.file}`)
+      .then(res => {
+        if (!res.ok) throw new Error("Post not found");
+        return res.text();
+      })
+      .then(md => {
+        const html = marked.parse(md);
+        const div = document.createElement("div");
+        div.className = "post";
+        div.innerHTML = `
+          <h2>${post.title}</h2>
+          <p><em>${post.date}</em></p>
+          ${html}
+          <p><a href="?slug=${post.slug}">📎 Permalink</a></p>
+        `;
+        container.appendChild(div);
+        document.title = post.title + " | Justin Carter Blog";
+      })
+      .catch(err => {
+        container.innerHTML = `<p>⚠️ Could not load post "${post.file}".</p>`;
+        console.error(err);
+      });
+  }
+
+  // Load manifest
+  fetch("posts/posts.json")
+    .then(res => res.json())
+    .then(files => {
+      const posts = files.map(parseFilename);
+
+      if (requestedSlug) {
+        const match = posts.find(p => p.slug === requestedSlug);
+        if (match) {
+          renderPost(match);
+        } else {
+          container.innerHTML = `<p>⚠️ Post not found.</p>`;
+        }
+      } else {
+        posts.sort((a, b) => new Date(b.date) - new Date(a.date));
+        posts.forEach(renderPost);
+      }
+    })
+    .catch(err => {
+      container.innerHTML = `<p>⚠️ Error loading blog posts.</p>`;
+      console.error(err);
+    });
+</script>
+
+
+
 </body>
 </html>
+
