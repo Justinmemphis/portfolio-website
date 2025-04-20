@@ -45,3 +45,5 @@ To-do (December 26 2024):
 - changed icons and links at bottom of sidebar
 - change background image color to match background image
 
+04/20/2025:
+- added blog page
