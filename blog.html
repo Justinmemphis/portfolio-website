@@ -80,7 +80,6 @@
           container.innerHTML = `<p>⚠️ Post not found.</p>`;
         }
       } else {
-        posts.sort((a, b) => new Date(b.date) - new Date(a.date));
         posts.forEach(renderPost);
       }
     })
